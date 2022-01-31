@@ -10,15 +10,15 @@
 #include <conio.h>
 using namespace std;
 int main(int argc, char *argv[])
-{
- int but;
- for ( int but=2;but<=32;but+=2)
-{ 
- cout<<but<<' ';
-}
- cout<<endl;
- system("PAUSE");
- return EXIT_SUCCESS;
+    {
+         for ( int i=33;i<=255;i++)
+         {
+               cout<<(char)(i)<<" "<<i<<" ";
+               if (i % 3 == 0)cout<<endl;
+         }
+    cout<<endl;
+    system("PAUSE");
+return EXIT_SUCCESS;
 }</textarea>
 </font>
 </body>
