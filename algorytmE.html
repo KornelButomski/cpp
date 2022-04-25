@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>algorytm Euklidesa</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body bgcolor="silver">
+Specyfikacja dla algorytmu Euklidesa.<br>
+Dane: Dwie liczby naturalne m i n, m&lt;=n.<br>
+Wynik: NWD(m,n) –największy wspólny dzielnik m i n<br>
+<br>
+Schemat blokowy:<br>
+<img src="algorytm.png">
+<br>
+Lista kroków:<br>
+Krok 1:	Czytaj a,b	; wczytujemy dane wejściowe<br>
+Krok 2:	Jeśli a  = b, to idź do kroku 5	; jeśli a = b, to NWD jest a lub b<br>
+Krok 3:	Jeśli a  > b, to a  ← a  - b. Inaczej b  ← b  - a	; jeśli a jest różne od b, to od większej liczby odejmujemy mniejszą<br>
+Krok 4:	Idź do kroku 2	; wracamy do sprawdzania warunku w kroku 2<br>
+Krok 5:	Pisz a	; wypisujemy NWD<br>
+Krok 6:	Zakończ	; koniec algorytmu
+ </body>
+</html>
